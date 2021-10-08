@@ -1,0 +1,131 @@
+.job-item {
+  text-decoration: none;
+  margin-bottom: 48px;
+  width: 350px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  background-color: #202020;
+  border: 1px solid #202020;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-item {
+    width: 300px;
+    padding: 18px;
+    margin: 25px;
+  }
+}
+
+.logo-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.company-logo-style {
+  width: 100%;
+  margin: 10px;
+}
+
+.titiles {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 15px;
+}
+
+.hdng {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+.msg {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: 6px;
+  margin-right: 12px;
+  text-decoration: normal;
+  margin-bottom: 3px;
+  margin-top: 0px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 6px;
+}
+
+.rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 4px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.star {
+  height: 30px;
+  width: 32px;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  background-color: transparent;
+}
+
+.location-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.ruler {
+  width: 100%;
+  margin-inline-start: 0px;
+  margin-left: 0px;
+  margin-top: 20px;
+  border: 1px solid #7e858e;
+}
+
+.location-btn {
+  background-color: transparent;
+  color: #ffffff;
+  border: 0px;
+  outline: none;
+  font-size: 20px;
+}
+
+.icon-style {
+  width: 100%;
+}
+
+.pkg {
+  font-size: 16px;
+  margin-left: 55px;
+}

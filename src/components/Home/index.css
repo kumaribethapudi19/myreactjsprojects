@@ -1,0 +1,119 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px;
+  padding-top: 1px;
+  padding-bottom: 50px;
+  width: 100%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+  height: 100vh;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 36px;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+    height: 100vh;
+    background-size: cover;
+    width: 90%;
+  }
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  margin: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-content {
+    margin-top: 0px;
+    width: 650px;
+    align-items: flex-start;
+  }
+}
+
+.home-mobile-img {
+  width: 206px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-mobile-img {
+    display: none;
+  }
+}
+
+.home-desktop-img {
+  width: 50%;
+  max-width: 450px;
+  margin-left: 85px;
+}
+
+@media screen and (max-width: 767px) {
+  .home-desktop-img {
+    display: none;
+  }
+}
+
+.home-heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-top: 0px;
+  font-size: 36px;
+  color: #ffffff;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 66px;
+    text-align: left;
+  }
+}
+
+.home-description {
+  font-family: 'Roboto';
+  margin-top: 1px;
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .home-description {
+    font-size: 26px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+}
+
+.find-button {
+  width: 100px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: white;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 6px;
+  background-color: #6366f1;
+  margin-top: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .find-button {
+    width: 150px;
+    font-size: 16px;
+  }
+}
